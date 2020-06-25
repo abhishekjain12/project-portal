@@ -14,7 +14,7 @@ class Config(object):
     DB_HOST = 'localhost'
     DB_PORT = '3306'
     DB_NAME = 'project-portal'
-    DB_USER = 'root'
+    DB_USER = 'portal-root'
     DB_PASSWORD = 'root'
     SQLALCHEMY_DATABASE_URI = f'mysql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}'
 
