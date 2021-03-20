@@ -6,7 +6,7 @@ celery
 flower
 mysqlclient
 bcrypt
-jinja2==2.11.1
+jinja2==2.11.3
 PyJWT==1.4.0
 Flask-Restless
 Flask-SQLAlchemy
